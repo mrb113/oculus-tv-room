@@ -3,24 +3,26 @@ using System.Collections;
 
 public class camera2_image : MonoBehaviour {
 	public string url1 = "http://viewfinder1.case.edu/image.jpg";
-	public string url2 = "http://viewfinder2.case.edu/image.jpg";
-	public string url3 = "http://viewfinder3.case.edu/image.jpg";
+	public string url2 = "http://viewfinder3.case.edu/image.jpg";
+	public string url3 = "http://viewfinder2.case.edu/image.jpg";
+	public string url = null;
 	// Use this for initialization
 	void Start () {
 		// Determine which TV is using the script
 		// Then we can determine which URL to use
-		string url = null; 
-		string caller = transform.parent.gameObject.name; 
-		if (caller = "plane1"){
-			Debug.Log("Plane1");
+		
+		string caller = transform.parent.gameObject.name;
+		if (caller == "TVset_camera1"){
+			
 			url = url1; 
-		} else if (caller = "plane2") {
-			Debug.Log("Plane2");
+		} else if (caller == "TVset_camera2") {
+			
 			url = url2; 
 		} else {
-			Debug.Log ("plane3");
+			Debug.Log (caller);
 			url = url3; 
 		}
+
 		// Starts updating the image every half second 
 		Texture glennan = (Texture)Resources.Load("glennan_static");
 		Debug.Log("glennan: " + glennan);
@@ -37,6 +39,7 @@ public class camera2_image : MonoBehaviour {
 	}
 
 	IEnumerator FetchImage() {
+	
 		WWW www = new WWW(url);
 		yield return www;
 		renderer.material.mainTexture = www.texture;
