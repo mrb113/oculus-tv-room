@@ -69,6 +69,7 @@
      <Compile Include="Assets\Tuscany\Scripts\RandomAnimationStart.cs" />
      <Compile Include="Assets\Tuscany\Scripts\ScrollUVs.cs" />
      <Compile Include="Assets\Tuscany\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\camera2_image.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Tuscany\Models\Materials\TransparentTerrain.shader" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 3.shader" />

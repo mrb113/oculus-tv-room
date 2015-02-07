@@ -10,9 +10,17 @@ Platform assembly: C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_
 Loading C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.038 seconds
+- Completed reload, in  0.039 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 Platform assembly: C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\hacker\Documents\glennan-oculus\glennan-oculus\room_Data\Managed\System.dll (this message is harmless)
+Hi Michelle!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+glennan: glennan_static (UnityEngine.Texture2D)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

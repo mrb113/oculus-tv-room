@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OVR\Scripts\Util\OVRPlayerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\hacker\Documents\glennan-oculus\glennan-oculus\Assets\OVR\Scripts\OVRCommon.cs">
     <Files>
       <File FileName="Assets\OVR\Scripts\Util\OVRPlayerController.cs" Line="129" Column="32" />
+      <File FileName="Assets\camera2_image.cs" Line="21" Column="3" />
+      <File FileName="c:\Users\hacker\Documents\glennan-oculus\glennan-oculus\Assets\OVR\Scripts\OVRCommon.cs" Line="95" Column="65" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
