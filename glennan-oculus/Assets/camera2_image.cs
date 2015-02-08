@@ -19,7 +19,6 @@ public class camera2_image : MonoBehaviour {
 			
 			url = url2; 
 		} else {
-			Debug.Log (caller);
 			url = url3; 
 		}
 
